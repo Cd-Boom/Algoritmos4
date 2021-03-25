@@ -25,6 +25,8 @@ public class Program extends Application {
             Condicion = JOptionPane.showInputDialog("Desea ingresar un nuevo nodo al arbol, si o no?").toString();
         } while (Condicion.equals("si"));
         NodoDato = JOptionPane.showInputDialog("Eliminar un nodo").toString();
+        //Cambios
         JOptionPane.showMessageDialog(null,"Hola");
+
     }
 }
