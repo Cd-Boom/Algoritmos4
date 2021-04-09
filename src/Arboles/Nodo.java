@@ -6,7 +6,7 @@ public class Nodo  {
     private Nodo Siguiente;
     private String Dato;
     private boolean EsNodoRaiz;
-    private Nodo Arbol;
+    private Arbol Arbol;
 
     //Contructor
     public Nodo() {
@@ -30,7 +30,7 @@ public class Nodo  {
         this.EsNodoRaiz = EsNodoRaiz;
     }
 
-    public void Ingresar_Arbol(Nodo Arbol)
+    public void Ingresar_Arbol(Arbol Arbol)
     {
         this.Arbol = Arbol;
     }
@@ -51,7 +51,7 @@ public class Nodo  {
         return this.EsNodoRaiz;
     }
 
-    public Nodo  Arbol()
+    public Arbol  Arbol()
     {
         return this.Arbol;
     }
